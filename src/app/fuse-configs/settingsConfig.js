@@ -1,7 +1,7 @@
 function getApiURL() {
 	let { hostname, protocol } = document.location;
 	let splits = hostname.split('.');
-	splits[0] = 'api';
+	splits[0] = 'api2';
 	let apiUrl = protocol + '//' + splits.join('.') + '/';
 	return apiUrl;
 	// return 'http://api2.zeoan.in:8000/'
